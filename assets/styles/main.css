@@ -1,0 +1,416 @@
+/*Estilos cards */
+@font-face {
+    font-family:"Netflix bold";
+    src: url(/assets/fonts/Netflix\ Sans\ Bold.otf);
+}
+@font-face {
+    font-family: "Netflix light ";
+    src: url(/assets/fonts/Netflix\ Sans\ Light.otf);
+}
+
+@font-face {
+    font-family: "Netflix medium";
+    src: url(/assets/fonts/Netflix\ Sans\ Medium.otf);
+}
+.bgInicio{
+    background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.918) 0,transparent 60%,rgba(0, 0, 0, 0.904)),url(/assets/img/iniciofondo.jpg);
+    background-size: cover;
+    background-position:right;
+    background-repeat:no-repeat;
+    min-height: 100vh;
+    border-bottom: 8px solid rgb(97, 97, 97);
+}
+
+.logo{
+    width: 100px;
+    min-width: 10vw;
+    margin: 8px 0px;
+}
+
+.navbar-brand{
+    padding:15px 12px 0px ;
+}
+@media(max-width:750px){
+    .logo{
+        width: 70px;
+    }
+    .inputEmail>input[type="email"]{
+        min-width:45vw;
+        
+        
+    }
+    .btnComenzar{
+        min-width: 45vw;
+    }
+
+}
+
+
+.fa{
+    padding: 5px 7px;
+    background-color: rgba(0, 0, 0, 0.568);
+    color:white;
+    font-size: 18px;
+    border-radius: 6px;
+}
+.contNav{
+    padding: 0px 14px 0px;
+}
+
+.langinicio{
+    margin: 8px 0px 0px;
+}
+
+.tituloInicio>h1, .tituloInicio>h3,.tituloInicio>p{
+    color: white;
+    margin: 18px 0px;
+}
+.tituloInicio>h1{
+    font-family: 'Netflix bold';
+    padding: 0px 40px 0px;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.tituloInicio{
+    margin: 135px 0px 0px;
+    padding: 30px 0px;
+    
+}
+
+.tituloInicio>p{
+    font-size: 23px;
+    font-family: 'Netflix medium';
+    padding: 0px 20px
+}
+.tituloInicio>h3{
+    font-size: 20px;
+    padding: 0px 50px 0px;
+}
+
+.btnComenzar, .btnInicio{
+    color:white ;
+    background-color:#db0000;
+    border-radius: 8px;
+    border: none;
+}
+.btnInicio{
+    padding: 4px 12px;
+    font-size: 16px;
+    font-family: 'Netflix medium';
+}
+
+
+.btnComenzar{
+    height: 52px;
+    padding: 0px 15px 6px;
+    font-size: 25px;
+    margin: 20px 0px;
+
+}
+.inputEmail>input[type="email"]{
+    width: 32%;
+    height: 50px;
+    padding:0px 15px;
+    min-height:7vh;
+}
+/*Estilos cards */
+
+* {
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    /* border: 2px solid red; */
+}
+
+main .row {
+    /* border: 2px solid blue; */
+    min-height: 90vh;
+}
+
+main .col {
+    /* border: 2px solid green; */
+    min-height: 480px;
+}
+
+main p {
+    /* border: 2px solid yellow; */
+}
+
+main .fs-1 {
+    /* font-size: 3em !important; */
+    font-weight: 900 !important;
+}
+
+main #video_image1 {
+    top: 85px;
+    left: 70px;
+
+    width: 400px;
+
+    z-index: 1;
+}
+
+main #image_video1 {
+    z-index: 10;
+    width: 500px;
+}
+
+main #video_image2 {
+    top: -60px;
+    left: 85px;
+    width: 310px;
+    
+    z-index: 2;
+}
+
+main #image_video2 {
+    z-index: 20;
+    width: 500px;
+
+}
+
+main .imagen {
+    width: 500px;
+}
+
+
+main .animacion {
+    position: absolute;
+
+    left: 140px;
+    bottom: 130px;
+
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 1);
+
+    display: flex;
+    align-items: center;
+    width: 49%;
+    min-width: 15rem;
+    padding: 0.25rem 0.65rem;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 2em 0 rgba(0, 0, 0, 1);
+    border-radius: 0.75rem;
+    z-index: 1;
+}
+
+.contCards{
+    font-size: 17px;
+    
+}
+.titleCard{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/**/
+
+@media only screen and (max-width: 992px) {
+
+    main .animacion  {
+        left: 180px;
+        bottom: 130px;
+    }
+
+    main .reversa {
+      flex-direction: column-reverse;
+    }
+
+    main .col {
+        text-align: center;
+    }
+
+    main .row {
+        text-align: center;
+    }
+
+    main #video_image2 {
+        top: -40px;
+        left: 40px;
+
+        max-width: 250px;
+
+        z-index: 2;
+    }
+
+    main #image_video2 {
+        z-index: 20;
+        width: 400px;
+    }
+
+  }
+
+  @media only screen and (max-width: 768px) {
+    main .reversa {
+      flex-direction: column-reverse;
+    }
+
+    main .col {
+        text-align: center;
+    }
+
+    main .row {
+        text-align: center;
+    }
+
+    main #video_image2 {
+        top: -30px;
+        left: 80px;
+
+        width: 250px;
+
+        z-index: 2;
+    }
+
+    main #image_video2 {
+        z-index: 20;
+        min-width: 600px;
+    }
+
+  }
+
+
+/**/
+
+  
+body {
+    background-color: black;
+}
+
+/* .container {
+    border: 2px solid red;
+} */
+
+
+footer {
+    /* border: 2px solid blue; */
+    height: 70vh;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/*
+footer .row {
+    border: 2px solid blue;
+    min-height: 90vh;
+} */
+
+/* footer .col {
+    border: 2px solid green;
+    min-height: 480px;
+} */
+
+footer .fa{
+    padding: 5px 7px;
+    background-color: rgba(0, 0, 0, 0.568);
+    color:rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+    border-radius: 6px;
+    margin: 10px;
+    margin-left: 30px;
+}
+
+footer #telefono {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+
+}
+
+footer ul a {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+footer .answers {
+    margin: 10px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+footer .netflixargentina {
+    margin: 10px;
+    margin-left: 30px;
+}
+
+.accordion-button{
+    background-color: rgba(45, 45, 45, 1);
+    border-color: black !important;
+    box-shadow: none!important;
+    width: 100%;
+    padding: 30px;
+}
+.member>input[type="email"]{
+    padding: 50px;
+}
+.accordion-button.collapsed{
+    margin: 0;
+    display: flex;
+    font-size: inherit;
+    font-weight: inherit;
+    margin-bottom: 0.0625rem;
+    background-color: rgba(45, 45, 45, 1);
+    color: rgba(255, 255, 255, 1);
+    transition-duration: 250ms;
+    transition-property: background-color;
+    transition-timing-function: cubic-bezier(0.9, 0, 0.51, 1);
+    font-size: 25px;
+    padding: 22px;
+    cursor: pointer;
+    box-shadow: none;
+}
+footer{
+    margin-top: 70px;
+}
+.accordion-button:not(.accordion-button.collapsed){
+    margin: 0;
+    display: flex;
+    font-size: inherit;
+    font-weight: inherit;
+    margin-bottom: 0.0625rem;
+    background-color: rgba(45, 45, 45, 1);
+    color: rgba(255, 255, 255, 1);
+    transition-duration: 250ms;
+    transition-property: background-color;
+    transition-timing-function: cubic-bezier(0.9, 0, 0.51, 1);
+    font-size: 25px;
+    padding: 22px;
+    cursor: pointer;
+    box-shadow: none;
+}
+.accordion-button:hover{
+    border-color: black !important;
+    box-shadow: none;
+}
+.contcollapse>h2{
+    font-size: 50px; 
+    font-weight: bold; 
+    padding: 0px 0px 30px;
+}
+.accordion-button:focus{
+    border-color: black !important;
+    box-shadow: 5px 10px #888888;
+}
+.accordion-collapse{
+    text-align: left;
+    background-color: rgba(45, 45, 45, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.5rem;
+    font-weight: 400;
+    width: 100%;
+    padding: 0px 20px;
+}
+
+.member>h3{
+    padding: 28px 0px 10px;
+}
