@@ -417,7 +417,13 @@ footer{
 }
 
 .contFormLogin{
-    background-color: rgba(0, 0, 0, 0.568);
+    background-color: rgba(0, 0, 0, 0.781);
+    width: 35%;
+    padding: 50px;
+}
+
+.footerLogin{
+    background-color: rgba(0, 0, 0, 0.781);
 }
 
 /* FIN Login*/
