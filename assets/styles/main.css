@@ -123,10 +123,6 @@ body {
     background-color: black;
 }
 
-.container {
-    /* border: 2px solid red; */
-}
-
 main .row {
     /* border: 2px solid blue; */
     min-height: 90vh;
@@ -135,10 +131,6 @@ main .row {
 main .col {
     /* border: 2px solid green; */
     min-height: 480px;
-}
-
-main p {
-    /* border: 2px solid yellow; */
 }
 
 main .fs-1 {
@@ -414,3 +406,15 @@ footer{
 .member>h3{
     padding: 28px 0px 10px;
 }
+
+/*Login*/
+.contBgLogin{
+    background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.918) 0,transparent 60%,rgba(0, 0, 0, 0.904)),url(/assets/img/iniciofondo.jpg);
+    background-size: cover;
+    background-position:right;
+    background-repeat:no-repeat;
+    min-height: 100vh;
+}
+
+
+/* FIN Login*/
