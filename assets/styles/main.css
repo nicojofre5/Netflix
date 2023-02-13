@@ -420,10 +420,20 @@ footer{
     background-color: rgba(0, 0, 0, 0.781);
     width:400px;
     padding: 50px;
+    margin-top: 40px    ;
 }
 
 .footerLogin{
     background-color: rgba(0, 0, 0, 0.781);
+}
+
+.btnLoginInicio {
+    background-color: #db0000;
+    margin: 20px 0px 0px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
 }
 
 /* FIN Login*/
