@@ -420,7 +420,7 @@ footer{
 .contFormLogin{
     background-color: rgba(0, 0, 0, 0.651);
     width:520px;
-    padding: 75px 120px;
+    padding: 75px 78px;
     margin-top: 40px;
     border-radius: 6px;
 }
@@ -442,6 +442,10 @@ footer{
 .btnLoginInicio>a{
     color: white;
 }
+.titleInicio{
+    text-align: left;
+    font-size: 35px;
+}
 
 input[type="email"],input[type="password"]{
     padding: 15px 5px;
@@ -462,9 +466,15 @@ input[type="email"],input[type="password"]{
 .suscripcionCaptcha>p{
     font-size: 14px;
     color: rgb(133, 130, 130);
-    padding: 0px 50px 0px 0px;
-    
-    
+    padding: 0px 40px 0px 0px;   
+}
+
+.checkRecuerdame>label,.checkRecuerdame>a{
+    color: rgb(161, 160, 160);
+}
+
+.primeraVez>a{
+    color:white;
 }
 
 @media only screen and (max-width:800px) {
