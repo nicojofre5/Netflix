@@ -420,7 +420,7 @@ footer{
     background-color: rgba(0, 0, 0, 0.781);
     width:400px;
     padding: 50px;
-    margin-top: 40px    ;
+    margin-top: 40px;
 }
 
 .footerLogin{
@@ -435,5 +435,20 @@ footer{
     padding: 10px 20px;
     font-weight: bold;
 }
+
+@media only screen and (max-width:1000px) {
+    .contFormLogin{
+        background-color: black;
+        margin: 40px 120px;
+        width: 100%;
+    }
+
+    .contBgLogin{
+        background-image: none;
+    }
+
+}
+
+
 
 /* FIN Login*/
