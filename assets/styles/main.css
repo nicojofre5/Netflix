@@ -414,13 +414,15 @@ footer{
     background-position:right;
     background-repeat:no-repeat;
     min-height: 100vh;
+    
 }
 
 .contFormLogin{
-    background-color: rgba(0, 0, 0, 0.781);
-    width:400px;
-    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.651);
+    width:550px;
+    padding: 75px 120px;
     margin-top: 40px;
+    border-radius: 6px;
 }
 
 .footerLogin{
@@ -428,19 +430,30 @@ footer{
 }
 
 .btnLoginInicio {
-    background-color: #db0000;
+    background-color: #e50914;
     margin: 20px 0px 0px;
     width: 100%;
     border-radius: 5px;
-    padding: 10px 20px;
+    padding: 12px 5px;
     font-weight: bold;
+    font-size: 18px;
+}
+.btnLoginInicio>a{
+    color: white;
 }
 
-@media only screen and (max-width:1000px) {
+input[type="email"],input[type="password"]{
+    padding: 10px 5px;
+    width: 100%;
+    margin: 18px 0px 0px;
+    border-radius: 7px;
+}
+
+@media only screen and (max-width:800px) {
     .contFormLogin{
         background-color: black;
-        margin: 40px 120px;
         width: 100%;
+        
     }
 
     .contBgLogin{
