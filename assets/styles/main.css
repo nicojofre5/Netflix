@@ -47,7 +47,6 @@
 
 
 .fa{
-    padding: 5px 7px;
     background-color: rgba(0, 0, 0, 0.568);
     color:white;
     font-size: 18px;
@@ -274,36 +273,15 @@ body {
     background-color: black;
 }
 
-/* .container {
-    border: 2px solid red;
-} */
-
-
-footer {
-    /* border: 2px solid blue; */
-    height: 70vh;
-    color: rgba(255, 255, 255, 0.7);
-}
-
-/*
-footer .row {
-    border: 2px solid blue;
-    min-height: 90vh;
-} */
-
-/* footer .col {
-    border: 2px solid green;
-    min-height: 480px;
-} */
 
 footer .fa{
     padding: 5px 7px;
     background-color: rgba(0, 0, 0, 0.568);
     color:rgba(255, 255, 255, 0.7);
     font-size: 18px;
-    border-radius: 6px;
-    margin: 10px;
-    margin-left: 30px;
+    border-radius: 3px;
+    margin: 30px 0px 0px;
+    padding: 10px;
 }
 
 footer #telefono {
@@ -361,9 +339,7 @@ footer .netflixargentina {
     cursor: pointer;
     box-shadow: none;
 }
-footer{
-    margin-top: 70px;
-}
+
 .accordion-button:not(.accordion-button.collapsed){
     margin: 0;
     display: flex;
@@ -413,7 +389,8 @@ footer{
     background-size: cover;
     background-position:right;
     background-repeat:no-repeat;
-    min-height: 100vh;
+    min-height:70vh;
+
     
 }
 
@@ -421,13 +398,12 @@ footer{
     background-color: rgba(0, 0, 0, 0.651);
     width:520px;
     padding: 75px 78px;
-    margin-top: 40px;
     border-radius: 6px;
+    display: flex;
+    justify-content: center;
 }
 
-.footerLogin{
-    background-color: rgba(0, 0, 0, 0.781);
-}
+
 
 .btnLoginInicio {
     background-color: #e50914;
@@ -490,6 +466,10 @@ input[type="email"],input[type="password"]{
 
 }
 
-
+.footerLogin{
+    background-color: rgba(0, 0, 0, 0.781);
+    margin: 50px 0px;
+    padding: 50px;
+}
 
 /* FIN Login*/
